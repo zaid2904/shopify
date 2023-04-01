@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(10, 61, 61);
+    padding: 12px;
+    color: white;
+    font-size: 18px;
+}
+nav p:hover{
+    border-bottom: 3px solid rgb(34, 219, 105);
+    color: rgb(72, 194, 72);
+    cursor: pointer;
+}
+nav img{
+    width:10%;
+}
+nav button{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(21, 139, 100);
+    border: none;
+    color: white;
+    border-radius: 3px;
+    margin-top: 14px;
+}
+nav p{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(10, 61, 61);
+    color: white;
+}
+.main img{
+    width: 580px;
+    height: 480px;
+    margin-top: 11px;
+}
+.main .text h1{
+    margin-top: 44px;
+    margin-left: 37px;
+}
+.main .text h1{
+    font-size: 54px;
+    margin-top: 32px;
+}
+.main .text p{
+    margin-top: 8px;
+    font-size: 25px;
+}
+.main .inp input{
+    width: 300px;
+    height: 46px;
+    border: none;
+    font-size: 17px;
+}
+.inp button{
+    width: 140px;
+    height: 46px;
+    background-color: rgb(21, 139, 100);
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin-top: 9px;
+    border-radius: 4px;
+    margin-left: 13px;
+}
+
+.inp button:hover{
+    background-color: rgb(5, 39, 36);
+    color: rgb(34, 219, 105);
+}
+
+.inp{
+    margin-top: 20px;
+}
+.main .text .dis{
+    font-size: 15px;
+    margin-top: 22px;
+}
+.discover{
+    text-align: 33px;
+    text-align: center;
+    margin-top: 33px;
+    font-size: 25px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.card .text{
+    margin-top: 53px;
+}
+.card .text h2{
+    font-size: 37px;
+    margin-top: 5px;
+}
+.card .text p{
+    font-size: 18px;
+    margin-top: 5px;
+}
+.card .img{
+    width: 400px;
+    height: 500px;
+    background-color: rgb(238, 121, 141);
+    border-radius: 8px;
+    margin-top: 60px;
+}
+.globe{
+    text-align: center;
+    margin-top: 53px;
+}
+.globe h1{
+    font-size: 43px;
+    /* width: 60%; */
+}
+.globe .number{
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(60, 138, 112);
+}
+.number .num{
+    font-size: 25px;
+}
+
+.card .text{
+    margin-top: 64px;
+}
+
+.text p{
+    font-size: 19px;
+}
+
+.text h2{
+    font-size: 29px;
+}
+
+.sells{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 44px;
+    margin-top: 64px;
+}
+.sells .text{
+    background-color: rgb(247, 226, 230);
+    width: 800px;
+}
+.sells img{
+    width: 500px;
+}
+
+.sells .text h1{
+    margin-left: 33px;
+    padding: 44px;
+    font-size: 33px;
+}
